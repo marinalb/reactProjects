@@ -2,6 +2,11 @@ body {
   background-color: #0080ff;
 }
 
+p {
+  color: red;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 h1 {
   color: #fff;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -33,21 +38,17 @@ h6 {
 }
 
 #app {
-  color: black;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: yellow;
 }
 
 #demo {
-  color: black;
-  font-family: 'Courier New', Courier, monospace;
+  background-color: aqua;
 }
 
 #test {
-  color:aqua;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color:bisque;
 }
 
 #module {
-  color:palevioletred;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color:palevioletred;
 }
