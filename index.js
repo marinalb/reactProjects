@@ -1,15 +1,39 @@
+const display = document.getElementById('display');
+const buttons = document.querySelectorAll('button');
+let currentInput = '';
+let operator = '';
+let firstOperand = null;
 
-document.body.insertAdjacentHTML ("afterbegin",
-"<h1>Hello World!</h1><h2>Hellou World!</h2><h3>Hellou World!</h3><h4>Hellou World!</h4><h5>Hellou World!</h5><h6>Hellou World!</h6>");
+buttons.forEach(button => {
+    button.addEventListener('click', () => {
+        const value = button.innerText;
 
-document.getElementById("app").insertAdjacentHTML ("afterbegin", "<h6>Hellou World!</h6>");
+        if (value === '=') {
+            calculate();
+        } else if (['+', '-', '*', '/'].includes(value)) {
+            firstOperand = parseFloat(currentInput);
+            operator = value;
+            currentInput = ''; 
+        } else {
+            currentInput += value;
+        }
+        display.value = currentInput; 
+    });
+});
 
-document.getElementById("demo").innerHTML = `
-<p>Hellou World!<p>
-`;
-document.getElementById("test").innerHTML = `
-<h4>Hellou World!</h4>
-`;
-document.getElementById("module").innerHTML = `
-<h6>Hellou World!</h6>
-`;
+function calculate() {
+    if (firstOperand !== null && operator && currentInput) {
+        const secondOperand = parseFloat(currentInput);
+        let result = 0;
+
+        if (operator === '+') result = firstOperand + secondOperand;
+        if (operator === '-') result = firstOperand - secondOperand;
+        if (operator === '*') result = firstOperand * secondOperand;
+        if (operator === '/') result = firstOperand / secondOperand;
+
+        currentInput = result.toString();
+        operator = '';
+        firstOperand = null;
+    }
+    display.value = currentInput; 
+}
