@@ -1,0 +1,56 @@
+.hello-world {
+    margin: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .style1 {
+    background-color: lightblue;
+    font-size: 18px;
+  }
+  
+  .style2 {
+    background-color: lightgreen;
+    font-style: italic;
+  }
+  
+  .style3 {
+    background-color: lightcoral;
+    font-weight: bold;
+  }
+  
+  .style4 {
+    background-color: lightyellow;
+    text-transform: uppercase;
+    border-radius: 10px;
+  }
+  
+  .style5 {
+    background-color: lightpink;
+    color: darkred;
+  }
+  
+  .style6 {
+    background-color: lightgray;
+    border-radius: 10px;
+  }
+  
+  .style7 {
+    background-color: lightcyan;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .style8 {
+    background-color: lavender;
+    font-size: 32px;
+  }
+  
+  .style9 {
+    background-color: peachpuff;
+    font-size: 25px;
+  }
+  
+  .style10 {
+    background-color: mistyrose;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+  }
