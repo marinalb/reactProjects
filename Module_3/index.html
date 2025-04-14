@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form + Loading</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form id="form">
+            <h2>Form</h2>
+            <label for="textInput">Name:</label>
+            <input type="text" id="textInput" required />
+
+            <label for="selectInput">Select:</label>
+            <select id="selectInput">
+                <option value="Ice cream">Ice cream</option>
+                <option value="Chocolate">Chocolate</option>
+                <option value="Cookie">Cookie</option>
+            </select>
+
+            <div>
+                <p>Options:</p>
+                <label><input type="radio" name="radioInput" value="Male" required />Male</label>
+                <label><input type="radio" name="radioInput" value="Female" />Female</label>
+            </div>
+
+            <div>
+                <label><input type="checkbox" id="checkboxInput" /> Click Here</label>
+            </div>
+            <p></p>
+            <p></p>
+            <button type="submit" id="submitButton">Submit</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Text</th>
+                    <th>Select</th>
+                    <th>Radio</th>
+                    <th>Checkbox</th>
+                </tr>
+            </thead>
+            <tbody id="responseTable">
+            </tbody>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
