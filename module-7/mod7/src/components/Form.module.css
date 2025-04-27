@@ -1,0 +1,82 @@
+:global(body) {
+    margin: 0;
+    padding: 0;
+  }
+  
+.formWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #8000FF;
+  }
+  
+  .formContainer {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .formContainer h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #294824;
+  }
+  
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputGroup label {
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .inputGroup input,
+  .inputGroup select {
+    padding: 10px 12px;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .genderOptions {
+    display: flexbox;
+  }
+  
+  .genderOptions label {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #FF7300;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    justify-content: center;
+    width: 100%;
+    transition: ba;
+  }
+  
+  button:hover {
+    background-color: #c87f36;
+  }
+  
