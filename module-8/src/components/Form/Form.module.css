@@ -1,0 +1,184 @@
+:global(body) {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #8000FF 0%, #00CFFF 100%);
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.formWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  min-height: 100vh;
+  background: linear-gradient(120deg, #f0e6ff 0%, #fff 100%);
+}
+
+.formContainer {
+  background: linear-gradient(120deg, #fff 60%, #f0e6ff 100%);
+  padding: 32px 40px;
+  border-radius: 22px;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(128, 0, 255, 0.15), 0 1.5px 6px rgba(0,0,0,0.08);
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border: 2px solid #e0c3fc;
+}
+
+.formContainer h1 {
+  font-size: 2.2rem;
+  color: #8000FF;
+  margin-bottom: 8px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  background: linear-gradient(90deg, #FF00A8 0%, #00CFFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.inputGroup label {
+  font-weight: 700;
+  margin-bottom: 6px;
+  font-size: 1rem;
+  color: #5d00b8;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.inputGroup input,
+.inputGroup select {
+  padding: 12px;
+  margin-top: 6px;
+  border: 1.5px solid #c3b1e1;
+  border-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+  background: linear-gradient(90deg, #f7f6fd 60%, #e0c3fc 100%);
+  transition: border 0.2s, background 0.2s;
+  text-align: center;
+}
+
+.inputGroup input:focus,
+.inputGroup select:focus {
+  border: 1.5px solid #00CFFF;
+  background: linear-gradient(90deg, #f0faff 60%, #e0c3fc 100%);
+}
+
+.genderOptions {
+  display: flex;
+  gap: 16px;
+  margin-top: 6px;
+  justify-content: center;
+}
+
+.genderOptions label {
+  font-size: 1rem;
+  color: #8000FF;
+  font-weight: 600;
+  text-align: center;
+}
+
+button {
+  margin-top: 18px;
+  padding: 14px;
+  background: linear-gradient(90deg, #FF7300 0%, #FF00A8 100%);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(255, 0, 168, 0.08);
+  transition: background 0.3s, transform 0.2s;
+  text-align: center;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #FF00A8 0%, #FF7300 100%);
+  transform: translateY(-2px) scale(1.03);
+}
+
+.sortWrapper {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+  text-align: center;
+}
+
+.sortWrapper label {
+  font-weight: 700;
+  color: #5d00b8;
+  text-align: center;
+}
+
+.listWrapper {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.listWrapper h2 {
+  font-size: 1.5rem;
+  color: #8000FF;
+  margin-bottom: 18px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #00CFFF 0%, #FF00A8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.listItem {
+  background: linear-gradient(90deg, #f7f6fd 60%, #e0c3fc 100%);
+  padding: 18px;
+  border-radius: 14px;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 10px rgba(128, 0, 255, 0.07);
+  border-left: 5px solid #FF00A8;
+  text-align: center;
+}
+
+.listItem p {
+  margin: 6px 0;
+  color: #333;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+  justify-content: center;
+}
+
+.buttonGroup button {
+  flex: 1;
+  padding: 10px 0;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #00CFFF 0%, #8000FF 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  text-align: center;
+}
+
+.buttonGroup button:hover {
+  background: linear-gradient(90deg, #8000FF 0%, #00CFFF 100%);
+  transform: scale(1.04);
+}

@@ -1,0 +1,82 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(80, 0, 180, 0.55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    animation: fadeIn 0.3s ease;
+  }
+  
+  .modalContent {
+    background: linear-gradient(135deg, #fff 60%, #e0c3fc 100%);
+    padding: 36px 44px;
+    border-radius: 18px;
+    width: 350px;
+    max-width: 90vw;
+    text-align: center;
+    position: relative;
+    animation: slideIn 0.4s ease;
+    box-shadow: 0 8px 32px rgba(128, 0, 255, 0.18), 0 1.5px 6px rgba(0,0,0,0.10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 14px;
+    right: 18px;
+    background: linear-gradient(90deg, #FF00A8 0%, #00CFFF 100%);
+    border: none;
+    font-size: 26px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(255, 0, 168, 0.10);
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .closeButton:hover {
+    background: linear-gradient(90deg, #00CFFF 0%, #FF00A8 100%);
+    transform: scale(1.08);
+  }
+  
+  h2 {
+    margin-bottom: 18px;
+    font-size: 1.7rem;
+    font-weight: 800;
+    background: linear-gradient(90deg, #FF00A8 0%, #00CFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+  }
+  
+  p {
+    margin: 12px 0;
+    font-size: 1.1rem;
+    color: #5d00b8;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes slideIn {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
