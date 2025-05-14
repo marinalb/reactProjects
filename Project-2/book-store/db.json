@@ -1,0 +1,324 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "O Universo em Uma Casca de Noz",
+      "author": "Stephen Hawking",
+      "genre": "Non Fiction",
+      "price": 46.33,
+      "cover": "https://covers.openlibrary.org/b/id/8228691-L.jpg"
+    },
+    {
+      "id": 2,
+      "title": "O Poder do Hábito",
+      "author": "Charles Duhigg",
+      "genre": "Non Fiction",
+      "price": 32.49,
+      "cover": "https://covers.openlibrary.org/b/id/11153225-L.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Sapiens",
+      "author": "Yuval Noah Harari",
+      "genre": "Non Fiction",
+      "price": 59.38,
+      "cover": "https://covers.openlibrary.org/b/id/10523308-L.jpg"
+    },
+    {
+      "id": 25,
+      "title": "Breves Respostas para Grandes Questões",
+      "author": "Stephen Hawking",
+      "genre": "Non Fiction",
+      "price": 46.67,
+      "cover": "https://covers.openlibrary.org/b/id/10694867-L.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Como as Democracias Morrem",
+      "author": "Steven Levitsky",
+      "genre": "Non Fiction",
+      "price": 54.1,
+      "cover": "https://covers.openlibrary.org/b/id/8479020-L.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Mindset",
+      "author": "Carol S. Dweck",
+      "genre": "Non Fiction",
+      "price": 56.38,
+      "cover": "https://covers.openlibrary.org/b/id/10507362-L.jpg"
+    },
+    {
+      "id": 7,
+      "title": "A Menina que Roubava Livros",
+      "author": "Markus Zusak",
+      "genre": "Fiction",
+      "price": 44.9,
+      "cover": "https://covers.openlibrary.org/b/id/8235112-L.jpg"
+    },
+    {
+      "id": 8,
+      "title": "A Coragem de Ser Imperfeito",
+      "author": "Brené Brown",
+      "genre": "Non Fiction",
+      "price": 37.83,
+      "cover": "https://covers.openlibrary.org/b/id/10958338-L.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Rápido e Devagar",
+      "author": "Daniel Kahneman",
+      "genre": "Non Fiction",
+      "price": 37.3,
+      "cover": "https://covers.openlibrary.org/b/id/8231856-L.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Trabalho Focado",
+      "author": "Cal Newport",
+      "genre": "Non Fiction",
+      "price": 50.02,
+      "cover": "https://covers.openlibrary.org/b/id/8232005-L.jpg"
+    },
+    {
+      "id": 11,
+      "title": "O Andar do Bêbado",
+      "author": "Leonard Mlodinow",
+      "genre": "Non Fiction",
+      "price": 55.64,
+      "cover": "https://covers.openlibrary.org/b/id/11841124-L.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Antifrágil",
+      "author": "Nassim Nicholas Taleb",
+      "genre": "Non Fiction",
+      "price": 54.53,
+      "cover": "https://covers.openlibrary.org/b/id/10517883-L.jpg"
+    },
+    {
+      "id": 13,
+      "title": "O Gene",
+      "author": "Siddhartha Mukherjee",
+      "genre": "Non Fiction",
+      "price": 54.53,
+      "cover": "https://covers.openlibrary.org/b/id/12014638-L.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Uma Breve História do Tempo",
+      "author": "Stephen Hawking",
+      "genre": "Non Fiction",
+      "price": 47.91,
+      "cover": "https://covers.openlibrary.org/b/id/10713202-L.jpg"
+    },
+    {
+      "id": 15,
+      "title": "21 Lições para o Século 21",
+      "author": "Yuval Noah Harari",
+      "genre": "Non Fiction",
+      "price": 41.19,
+      "cover": "https://covers.openlibrary.org/b/id/11153230-L.jpg"
+    },
+    {
+      "id": 16,
+      "title": "O Cérebro Autista",
+      "author": "Temple Grandin",
+      "genre": "Non Fiction",
+      "price": 56.84,
+      "cover": "https://covers.openlibrary.org/b/id/10424918-L.jpg"
+    },
+    {
+      "id": 17,
+      "title": "A Mente Organizada",
+      "author": "Daniel Levitin",
+      "genre": "Non Fiction",
+      "price": 50.23,
+      "cover": "https://covers.openlibrary.org/b/id/8324617-L.jpg"
+    },
+    {
+      "id": 18,
+      "title": "A Arte da Guerra",
+      "author": "Sun Tzu",
+      "genre": "Non Fiction",
+      "price": 49.36,
+      "cover": "https://covers.openlibrary.org/b/id/8235116-L.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Comece pelo Porquê",
+      "author": "Simon Sinek",
+      "genre": "Non Fiction",
+      "price": 31.39,
+      "cover": "https://covers.openlibrary.org/b/id/8234390-L.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Os Segredos da Mente Milionária",
+      "author": "T. Harv Eker",
+      "genre": "Non Fiction",
+      "price": 56.65,
+      "cover": "https://covers.openlibrary.org/b/id/8234055-L.jpg"
+    },
+    {
+      "id": 21,
+      "title": "O Hobbit",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fiction",
+      "price": 57.78,
+      "cover": "https://covers.openlibrary.org/b/id/8371971-L.jpg"
+    },
+    {
+      "id": 22,
+      "title": "Harry Potter e a Pedra Filosofal",
+      "author": "J.K. Rowling",
+      "genre": "Fiction",
+      "price": 33.44,
+      "cover": "https://covers.openlibrary.org/b/id/10526249-L.jpg"
+    },
+    {
+      "id": 23,
+      "title": "O Conto da Aia",
+      "author": "Margaret Atwood",
+      "genre": "Fiction",
+      "price": 42.9,
+      "cover": "https://covers.openlibrary.org/b/id/11157695-L.jpg"
+    },
+    {
+      "id": 24,
+      "title": "As Crônicas de Nárnia",
+      "author": "C.S. Lewis",
+      "genre": "Fiction",
+      "price": 49.13,
+      "cover": "https://covers.openlibrary.org/b/id/8233687-L.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Jogos Vorazes",
+      "author": "Suzanne Collins",
+      "genre": "Fiction",
+      "price": 44.15,
+      "cover": "https://covers.openlibrary.org/b/id/8234805-L.jpg"
+    },
+    {
+      "id": 26,
+      "title": "Duna",
+      "author": "Frank Herbert",
+      "genre": "Fiction",
+      "price": 47.65,
+      "cover": "https://covers.openlibrary.org/b/id/8232899-L.jpg"
+    },
+    {
+      "id": 27,
+      "title": "Neuromancer",
+      "author": "William Gibson",
+      "genre": "Fiction",
+      "price": 41.98,
+      "cover": "https://covers.openlibrary.org/b/id/8235076-L.jpg"
+    },
+    {
+      "id": 28,
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "genre": "Fiction",
+      "price": 45.26,
+      "cover": "https://covers.openlibrary.org/b/id/8233559-L.jpg"
+    },
+    {
+      "id": 29,
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Fiction",
+      "price": 41.08,
+      "cover": "https://covers.openlibrary.org/b/id/8233033-L.jpg"
+    },
+    {
+      "id": 30,
+      "title": "Admirável Mundo Novo",
+      "author": "Aldous Huxley",
+      "genre": "Fiction",
+      "price": 36.83,
+      "cover": "https://covers.openlibrary.org/b/id/8233495-L.jpg"
+    },
+    {
+      "id": 31,
+      "title": "A Máquina do Tempo",
+      "author": "H.G. Wells",
+      "genre": "Fiction",
+      "price": 51.38,
+      "cover": "https://covers.openlibrary.org/b/id/8234411-L.jpg"
+    },
+    {
+      "id": 32,
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "genre": "Fiction",
+      "price": 48.54,
+      "cover": "https://covers.openlibrary.org/b/id/8233714-L.jpg"
+    },
+    {
+      "id": 33,
+      "title": "O Conto da Aia",
+      "author": "Margaret Atwood",
+      "genre": "Fiction",
+      "price": 38.36,
+      "cover": "https://covers.openlibrary.org/b/id/8233163-L.jpg"
+    },
+    {
+      "id": 34,
+      "title": "Coraline",
+      "author": "Neil Gaiman",
+      "genre": "Fiction",
+      "price": 37.73,
+      "cover": "https://covers.openlibrary.org/b/id/8232822-L.jpg"
+    },
+    {
+      "id": 35,
+      "title": "A Bússola de Ouro",
+      "author": "Philip Pullman",
+      "genre": "Fiction",
+      "price": 49.05,
+      "cover": "https://covers.openlibrary.org/b/id/8235145-L.jpg"
+    },
+    {
+      "id": 36,
+      "title": "A Guerra dos Tronos",
+      "author": "George R.R. Martin",
+      "genre": "Fiction",
+      "price": 58.33,
+      "cover": "https://covers.openlibrary.org/b/id/8233197-L.jpg"
+    },
+    {
+      "id": 37,
+      "title": "A Rainha Vermelha",
+      "author": "Victoria Aveyard",
+      "genre": "Fiction",
+      "price": 44.83,
+      "cover": "https://covers.openlibrary.org/b/id/8233305-L.jpg"
+    },
+    {
+      "id": 38,
+      "title": "Cidade dos Ossos",
+      "author": "Cassandra Clare",
+      "genre": "Fiction",
+      "price": 30.79,
+      "cover": "https://covers.openlibrary.org/b/id/8233440-L.jpg"
+    },
+    {
+      "id": 39,
+      "title": "Percy Jackson e o Ladrão de Raios",
+      "author": "Rick Riordan",
+      "genre": "Fiction",
+      "price": 33.58,
+      "cover": "https://covers.openlibrary.org/b/id/8234520-L.jpg"
+    },
+    {
+      "id": 40,
+      "title": "A Seleção",
+      "author": "Kiera Cass",
+      "genre": "Fiction",
+      "price": 33.6,
+      "cover": "https://covers.openlibrary.org/b/id/8232864-L.jpg"
+    }
+  ]
+}
