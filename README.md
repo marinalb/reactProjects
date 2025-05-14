@@ -5,6 +5,8 @@
 3. **HelloWorld App**: A React app that displays "Hello World!" in 10 different styles along with the current date and time.
 4. **Calculator 2.0**: An improved calculator with a clean and responsive design.
 9. **Forms HOC**: A demonstration of Higher-Order Components for form validation across multiple form types.
+12. **Fipe App (React + Hooks)**: A simple React app using only functional components and hooks to search car prices via the public Fipe API.
+
 
 ---
 
@@ -77,3 +79,18 @@
 - `src/components/forms/UserForm.jsx`: User registration form using the same HOC.
 - `src/components/hoc/FormValidation.jsx`: Higher-Order Component that manages form state and validation.
 - `src/main.jsx`: Entry point that renders the app with both forms.
+
+---
+
+## Module 12: Working with API & Fipe App (React + Hooks)
+
+## Features
+- Select brand, model, and year
+- Display car price details
+- Organized with reusable components and utility functions
+
+## Run
+```
+npm install
+npm run dev
+```

@@ -1,0 +1,65 @@
+{
+    "pokemons": [
+      {
+        "id": 1,
+        "name": "Pikachu",
+        "type": "Electric",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+      },
+      {
+        "id": 2,
+        "name": "Charmander",
+        "type": "Fire",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+      },
+      {
+        "id": 3,
+        "name": "Squirtle",
+        "type": "Water",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+      },
+      {
+        "id": 4,
+        "name": "Bulbasaur",
+        "type": "Grass",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+      },
+      {
+        "id": 5,
+        "name": "Jigglypuff",
+        "type": "Fairy",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png"
+      },
+      {
+        "id": 6,
+        "name": "Gengar",
+        "type": "Ghost",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png"
+      },
+      {
+        "id": 7,
+        "name": "Eevee",
+        "type": "Normal",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"
+      },
+      {
+        "id": 8,
+        "name": "Snorlax",
+        "type": "Normal",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png"
+      },
+      {
+        "id": 9,
+        "name": "Mewtwo",
+        "type": "Psychic",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png"
+      },
+      {
+        "id": 10,
+        "name": "Lapras",
+        "type": "Water/Ice",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png"
+      }
+    ]
+  }
+  

@@ -1,0 +1,113 @@
+:root {
+  font-family: 'Segoe UI', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  color-scheme: light dark;
+
+  --bg-gradient: linear-gradient(135deg, #ffcc00, #ff6666, #66ccff, #ccff66);
+  --primary: #ffcb05;
+  --secondary: #3b4cca;
+  --danger: #d32f2f;
+  --text-dark: #212121;
+  --text-light: #8a2a2a;
+  --card-bg: #4284be;
+
+  background-color: #fdfdfd;
+  color: var(--text-dark);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--bg-gradient);
+  background-size: 400% 400%;
+  animation: bgShift 10s ease infinite;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+}
+
+@keyframes bgShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+a {
+  font-weight: 600;
+  color: var(--secondary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: var(--danger);
+}
+
+h1 {
+  font-size: 3.2rem;
+  color: var(--secondary);
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+button {
+  border-radius: 10px;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: inherit;
+  background-color: var(--secondary);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #2a349e;
+  transform: scale(1.05);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 3px solid var(--primary);
+}
+
+input {
+  padding: 10px 14px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+  background-color: #363db5;
+}
+
+input:focus {
+  border-color: var(--secondary);
+  outline: none;
+  box-shadow: 0 0 5px rgba(59, 76, 202, 0.3);
+}
+
+.pokemon-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+code {
+  background-color: #4fb83e;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
