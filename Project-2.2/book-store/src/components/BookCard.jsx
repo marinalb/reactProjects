@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
 
 export default function BookCard({ book }) {
   return (
@@ -12,3 +14,14 @@ export default function BookCard({ book }) {
     </div>
   );
 }
+
+BookCard.propTypes = {
+  book: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    title: PropTypes.string.isRequired,
+    author: PropTypes.string.isRequired,
+    genre: PropTypes.string.isRequired,
+    price: PropTypes.number.isRequired,
+    cover: PropTypes.string
+  }).isRequired
+};
